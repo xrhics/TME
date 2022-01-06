@@ -2,15 +2,15 @@
 Tree-guided Multi-task Embedding Learning for Semantic Annotation of Venues Using Check-ins.
 
 ## Data
-* The input file "trajectoryTraining.txt" is from Foursquare, including check-ins of 18 months collected from Tokyo and New York. Each line of this file is a check-in sequence of a user. The format is: [venueid venueid venueid ...].
+* The input file "trajectoryTraining𝑥.txt" is from Foursquare, including check-ins of 18 months collected from Tokyo and New York. Each line of this file is a check-in sequence of a user. Note: we randomly mark off 𝑥% (x% = 10%, 20%, 30%) of all the venues and replace their categories with the “NULL” tag.
 
 * The input file "category0.csv" contains the venue categories used by Foursquare, which constitute a five-layer hierarchical structure, as the category hierarchy. The format is: [categoryid,categoryname,parent]
 
 ## For Example: 
-"trajectoryTraining.txt": 
+"trajectoryTraining10.txt": 
 
-4f6c5507121d7483f0ac8610 4b6cf0daf964a5202f5f2ce3 4aed0b8cf964a520ebcc21e3 4b4020f5f964a520f7b525e3 4b6cf0daf964a5202f5f2ce3 4b6cf0daf964a5202f5f2ce3 4b6cf0daf964a5202f5f2ce3 4b683963f964a520c66c2be3 4ec67ae75c5ce271bc51bfae  
-4b7ecbfdf964a520330030e3 4bd44b84a8b3a5937e7f6b5f 4bf2c3a0af659c748809d847 4b058806f964a52067ad22e3...
+4b2aef90f964a52067b224e3#Bookstore,4bc39536920eb71316ab1d2c#NULL,4bc39536920eb71316ab1d2c#NULL,4b6119e9f964a520b2092ae3#NULL,4b8c4178f964a520dac632e3#Airport,4baf0f0bf964a52021e93be3#Plaza,4b2ba998f964a520d8b824e3#Multiplex,4ba9a681f964a520e6323ae3#Train Station,4ba9a681f964a520e6323ae3#Train Station  
+4b89f269f964a520f25732e3#Airport,4b89f269f964a520f25732e3#Airport,4b2ba998f964a520d8b824e3#Multiplex,502354bfe4b053b46dd97c82#Shopping Mall,4efa453a9a52c908439fc8da#Train ...
 
 "category0.csv":
 
