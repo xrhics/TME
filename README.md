@@ -14,16 +14,16 @@ TME.py is a file that learns presentation of venues and annotates semantics of v
 
 "category0.csv":
 
-4d4b7105d754a06379d81259,Travel & Transport,root
-4d4b7105d754a06378d81259,Shop & Service,root
-4d4b7105d754a06372d81259,College & University,root
-4d4b7105d754a06373d81259,Event,root
-4d4b7105d754a06374d81259,Food,root
-4d4b7104d754a06370d81259,Arts & Entertainment,root
-4d4b7105d754a06377d81259,Outdoors & Recreation,root
-4d4b7105d754a06376d81259,Nightlife Spot,root
-52f2ab2ebcbc57f1066b8b57,Recruiting Agency,4d4b7105d754a06375d81259$root
-4c38df4de52ce0d596b336e1,Parking,4d4b7105d754a06375d81259$root
+4d4b7105d754a06379d81259,Travel & Transport,root  
+4d4b7105d754a06378d81259,Shop & Service,root  
+4d4b7105d754a06372d81259,College & University,root  
+4d4b7105d754a06373d81259,Event,root  
+4d4b7105d754a06374d81259,Food,root  
+4d4b7104d754a06370d81259,Arts & Entertainment,root  
+4d4b7105d754a06377d81259,Outdoors & Recreation,root  
+4d4b7105d754a06376d81259,Nightlife Spot,root  
+52f2ab2ebcbc57f1066b8b57,Recruiting Agency,4d4b7105d754a06375d81259$root  
+4c38df4de52ce0d596b336e1,Parking,4d4b7105d754a06375d81259$root  
 4bf58dd8d48988d172941735,Post Office,4d4b7105d754a06375d81259$root...
 
 
