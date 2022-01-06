@@ -2,7 +2,7 @@
 Tree-guided Multi-task Embedding Learning for Semantic Annotation of Venues Using Check-ins.
 
 ## Data
-* The input file "trajectoryTraining𝑥.txt" is from Foursquare, including check-ins of 18 months collected from Tokyo and New York. Each line of this file is a check-in sequence of a user. Note: we randomly mark off 𝑥% (x% = 10%, 20%, 30%) of all the venues and replace their categories with the “NULL” tag.
+* The input file "trajectoryTraining𝑥.txt" is from Foursquare, including check-ins of 18 months collected from Tokyo and New York. Each line of this file is a check-in sequence of a user. Note: we randomly mark off 𝑥% (𝑥% = 10%, 20%, 30%) of all the venues and replace their categories with the “NULL” tag.
 
 * The input file "category0.csv" contains the venue categories used by Foursquare, which constitute a five-layer hierarchical structure, as the category hierarchy. The format is: [categoryid,categoryname,parent]
 
