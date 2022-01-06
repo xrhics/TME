@@ -14,7 +14,6 @@ TME.py is a file that learns presentation of venues and annotates semantics of v
 
 "category0.csv":
 
-id,name,parent
 4d4b7105d754a06379d81259,Travel & Transport,root
 4d4b7105d754a06378d81259,Shop & Service,root
 4d4b7105d754a06372d81259,College & University,root
