@@ -1,6 +1,5 @@
 # TME
 Tree-guided Multi-task Embedding Learning for Semantic Annotation of Venues Using Check-ins.
-TME.py is a file that learns presentation of venues and annotates semantics of venues.
 
 ## Data
 * The input file "trajectoryTraining.txt" is from Foursquare, including check-ins of 18 months collected from Tokyo and New York. Each line of this file is a check-in sequence of a user. The format is: [venueid venueid venueid ...].
